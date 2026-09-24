@@ -46,3 +46,11 @@ Explica brevemente la estructura de clases antes de presentar los bloques de cod
 | ¿Separa la clase Modelo (Producto) de la Interfaz Gráfica? |Si |
 | ¿Sigue el formato de respuesta especificando la explicación previa? | Si|
 
+## Errores frecuentes evitados
+
+- Ser demasiado general: En la V1 no se especificaron el lenguaje, la interfaz gráfica ni los atributos del producto. Se evitó en la V3 definiendo claramente la tecnología (Java Swing), el tipo de aplicación (tienda de abarrotes) y los tipos de datos de cada campo (codigo, nombre, precio, stock).
+
+- No indicar el formato: En las iteraciones iniciales el modelo mezclaba la explicación con el código en un único archivo gigante. Se evitó solicitando explícitamente una síntesis de la arquitectura previa y bloques de código independientes por cada clase.
+
+
+- [Tarea: Mi prompt profesional](prompts/TAREA.md)
